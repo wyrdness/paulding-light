@@ -1,0 +1,305 @@
+{
+  "category": "ATMOSPHERIC_PHENOMENON",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/paulding-light",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "paulding-light",
+    "name": "Paulding Light",
+    "aliases": [
+      {
+        "name": "Dog Meadow Light",
+        "region": "Michigan, USA"
+      }
+    ],
+    "category": "ATMOSPHERIC_PHENOMENON",
+    "subcategory": "Ghost Lights",
+    "tags": [
+      "michigan",
+      "explained",
+      "atmospheric-refraction",
+      "ghost-lights",
+      "nocturnal",
+      "tourist-attraction"
+    ],
+    "status": "explained",
+    "description": {
+      "summary": "Light phenomenon near Paulding, Michigan. Explained in 2010 as car headlights from Highway 45 refracted through valley atmosphere.",
+      "full": "The Paulding Light is a light phenomenon near Paulding, Michigan in the Upper Peninsula. Appearing as a bright light down an old forest road (Power Line Road, also called Robbins Pond Road) that changes colors (red, white, green), the light appears nightly and seems to move or sway in a consistent location. Local legends attributed it to a railroad brakeman's ghost lantern, miner's ghost, or Native American spirits, making it a popular tourist attraction. In 2010, students from Michigan Tech proved conclusively that the lights are car headlights from Highway 45 refracted through the atmosphere. By synchronizing light sources with approaching cars, they demonstrated perfect correlation. The topography creates a natural viewing corridor for the refracted lights. This explanation is now scientifically confirmed."
+    },
+    "etymology": {
+      "origin": "Named after the town of Paulding, Michigan, near where the light is observed",
+      "meaning": "Light near Paulding",
+      "first_use": "Unknown, local phenomenon for decades"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ATMOSPHERIC_PHENOMENON",
+      "type": "Ghost Lights",
+      "subtype": "Atmospheric Refraction",
+      "variant": "Explained"
+    },
+    "related_phenomena": [
+      {
+        "id": "marfa-lights",
+        "name": "Marfa Lights",
+        "relationship": "similar",
+        "description": "Texas ghost lights, also mostly explained by car headlights"
+      },
+      {
+        "id": "min-min-lights",
+        "name": "Min Min Lights",
+        "relationship": "similar",
+        "description": "Australian ghost lights"
+      },
+      {
+        "id": "brown-mountain-lights",
+        "name": "Brown Mountain Lights",
+        "relationship": "similar",
+        "description": "North Carolina atmospheric lights"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": [
+        {
+          "feature": "Colors",
+          "description": "Red, white, green lights",
+          "frequency": "always"
+        },
+        {
+          "feature": "Location",
+          "description": "Appears down old forest road",
+          "frequency": "consistent"
+        },
+        {
+          "feature": "Behavior",
+          "description": "Seems to move or sway",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Single light source that changes color and appears to move, viewed down a forest road corridor"
+    },
+    "behavior": {
+      "activity_period": "nocturnal",
+      "conditions": "Appears nightly, weather permitting",
+      "patterns": [
+        "Appears at consistent location",
+        "Changes colors (red, white, green)",
+        "Seems to move or sway",
+        "Predictable and regular"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Localized to viewing area on Power Line Road (Robbins Pond Road) near Paulding, Michigan",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Michigan, Upper Peninsula"]
+    },
+    "hotspots": [
+      {
+        "name": "Power Line Road Viewing Area",
+        "location": {
+          "description": "Power Line Road (Robbins Pond Road), near Paulding",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Ontonagon County",
+          "coordinates": {
+            "latitude": 46.3538,
+            "longitude": -89.2111
+          }
+        },
+        "sighting_count": 1000,
+        "peak_period": "Ongoing, nightly",
+        "notes": "Tourist viewing area established"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Local folklore, decades of reports"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Continuous",
+          "description": "Appears nightly, year-round"
+        }
+      ],
+      "seasonal_patterns": "Year-round phenomenon, visible nightly"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Local folklore and ghost stories from Michigan's Upper Peninsula",
+      "earliest_accounts": "Exact origin unknown, phenomenon known for many decades",
+      "folklore_connections": "Railroad brakeman ghost, miner ghost, Native American spirits"
+    },
+    "timeline": [
+      {
+        "date": "Unknown",
+        "event": "Phenomenon recognized",
+        "significance": "Local residents begin noticing regular light",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1960s-1980s",
+        "event": "Tourist attraction develops",
+        "significance": "Word spreads, viewing area becomes popular destination",
+        "source": "Local tourism records"
+      },
+      {
+        "date": "2010",
+        "event": "Michigan Tech study",
+        "significance": "Students prove lights are car headlights from Highway 45",
+        "source": "Michigan Technological University"
+      }
+    ],
+    "modern_era": "Despite scientific explanation, remains popular tourist attraction. Viewing area continues to draw visitors interested in the atmospheric phenomenon."
+  },
+
+  "investigations": {
+    "studies": [
+      {
+        "year": "2010",
+        "organization": "Michigan Technological University students",
+        "methodology": "Synchronized light sources with approaching cars on Highway 45, observed correlation from viewing area",
+        "findings": "Perfect correlation between Highway 45 traffic and light appearances. Topography creates natural viewing corridor for atmospheric refraction",
+        "conclusion": "CONCLUSIVE: Lights are car headlights from Highway 45 refracted through valley atmosphere"
+      }
+    ],
+    "explanation": {
+      "mechanism": "Atmospheric refraction",
+      "details": "Temperature layers in valley bend light from Highway 45 (located over a hill from viewing area). Topography creates perfect viewing corridor. Red = taillights, white = headlights, green = occasional traffic lights or signals",
+      "confirmed": true,
+      "date_confirmed": "2010"
+    }
+  },
+
+  "evidence": {
+    "photographic": [
+      {
+        "type": "photographs",
+        "description": "Numerous photographs of the lights",
+        "status": "documented",
+        "analysis": "Consistent with distant vehicle lights refracted through atmosphere"
+      }
+    ],
+    "video": [
+      {
+        "type": "video recordings",
+        "description": "Videos showing lights changing colors and apparent movement",
+        "status": "documented",
+        "analysis": "Movement and color changes match vehicle traffic patterns"
+      }
+    ],
+    "scientific": [
+      {
+        "type": "2010 Michigan Tech study",
+        "description": "Synchronized observation with Highway 45 traffic",
+        "status": "conclusive",
+        "analysis": "Perfect correlation proves headlight origin"
+      }
+    ]
+  },
+
+  "theories": {
+    "scientific": [
+      {
+        "name": "Atmospheric Refraction of Car Headlights",
+        "description": "Car headlights from Highway 45 refracted through atmospheric layers in valley",
+        "proponents": ["Michigan Technological University students"],
+        "evidence_cited": ["2010 study with perfect correlation", "Topographical analysis"],
+        "status": "confirmed_explanation"
+      }
+    ],
+    "folklore": [
+      {
+        "name": "Railroad Brakeman's Ghost",
+        "description": "Ghost of brakeman killed in accident, carrying lantern",
+        "proponents": ["Local folklore"],
+        "evidence_cited": ["None"],
+        "status": "debunked"
+      },
+      {
+        "name": "Miner's Ghost",
+        "description": "Ghost of miner searching with lantern",
+        "proponents": ["Local folklore"],
+        "evidence_cited": ["None"],
+        "status": "debunked"
+      },
+      {
+        "name": "Native American Spirits",
+        "description": "Spiritual lights from indigenous legends",
+        "proponents": ["Local folklore"],
+        "evidence_cited": ["None"],
+        "status": "debunked"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Railroad ghost stories", "Mining legends", "Native American spiritual tales"],
+      "stories": [
+        "Brakeman killed in train accident searches with lantern",
+        "Miner's spirit searching for lost treasure",
+        "Ancient spirits protecting sacred land"
+      ],
+      "beliefs": "Despite scientific explanation, folklore persists as part of local culture"
+    },
+    "popular_culture": {
+      "tourism": [
+        "Popular tourist destination in Upper Peninsula",
+        "Viewing area with signs and parking",
+        "Featured in Michigan tourism materials"
+      ],
+      "media": [
+        "Featured in paranormal TV shows",
+        "Subject of numerous amateur investigations",
+        "Michigan folklore collections"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "mtu-2010",
+      "type": "study",
+      "title": "Investigation of the Paulding Light",
+      "authors": ["Michigan Technological University students"],
+      "publication": "Michigan Technological University",
+      "date": "2010"
+    },
+    {
+      "id": "local-folklore",
+      "type": "folklore",
+      "title": "Upper Peninsula Ghost Light Legends",
+      "description": "Collection of local stories and traditions"
+    }
+  ]
+}
