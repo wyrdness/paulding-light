@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/paulding-light",
     "maintainers": [
       {
@@ -16,111 +16,285 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "paulding-light",
     "name": "Paulding Light",
-    "aliases": [],
+    "aliases": [
+      { "name": "Dog Meadow Light", "region": "Paulding, Michigan" },
+      { "name": "Mystery Light of Watersmeet", "region": "Watersmeet / Paulding, Michigan" }
+    ],
     "category": "ATMOSPHERIC_PHENOMENON",
-    "subcategory": "Atmospheric Refraction",
+    "subcategory": "Optical / atmospheric phenomenon (vehicle headlights with refraction)",
     "tags": [
-      "folklore",
-      "mythology"
+      "ghost-light",
+      "spook-light",
+      "atmospheric",
+      "optical-phenomenon",
+      "refraction",
+      "michigan",
+      "upper-peninsula"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Paulding Light is a light phenomenon visible from Power Line Road (also called Robbins Pond Road) near Paulding, Michigan in the Upper Peninsula.",
-      "full": "The Paulding Light is a light phenomenon visible from Power Line Road (also called Robbins Pond Road) near Paulding, Michigan in the Upper Peninsula. For decades, locals and tourists have observed a mysterious light appearing down an old forest road—changing colors between red, white, and green, seeming to move or sway. Local legends attributed the light to various supernatural sources: a railroad brakeman's ghost carrying a lantern, a miner's spirit searching with a light, or Native American spirits. The phenomenon became a popular tourist attraction, drawing visitors eager to witness the \\\"ghost light.\\\""
+      "summary": "The Paulding Light is a recurring nocturnal light visible from Robbins Pond Road (also known as Old US 45) outside Paulding, Michigan, in the Upper Peninsula. A 2010 Michigan Tech investigation identified the light as headlights from vehicles on US 45 viewed through an atmospheric inversion duct.",
+      "full": "The Paulding Light is a well-known 'ghost light' or 'spook light' that appears nightly in a valley off Robbins Pond Road (Old US 45) near the unincorporated community of Paulding in Ontonagon County, Michigan, in the state's Upper Peninsula. It typically appears as a yellow or whitish glow that brightens, dims, and changes colour over minutes. The first widely cited modern report dates to 1966, when local teenagers reported the light to a sheriff's deputy. Local folklore variously attributes it to the lantern of a railroad brakeman killed on long-vanished tracks, the ghost of a murdered mail courier, or other regional spirit-narratives. In 2010, members of the Michigan Technological University SPIE student chapter conducted a structured investigation using telescopes and observed automobile headlights and tail lights, an Adopt-a-Highway sign, and police flashers on a stretch of US Highway 45 approximately 4-5 miles (about 7-8 km) north of the viewing site. They reproduced the light's behaviour by driving a car through that stretch. The visibility of distant headlights from the viewing area is enabled by a stable temperature-inversion layer over the valley that creates an atmospheric optical duct. Despite the published explanation, the site remains a popular paranormal-tourism destination."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for the unincorporated community of Paulding, Michigan, near which it is observed.",
+      "meaning": "Local English-language descriptive name; also called the 'Dog Meadow Light' from a nearby meadow.",
+      "first_use": "Modern reports date to the 1960s, with the name 'Paulding Light' established in regional usage by the late 20th century."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ATMOSPHERIC_PHENOMENON",
-      "type": "Atmospheric Refraction",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Ghost light / spook light",
+      "subtype": "Refracted vehicle headlight in atmospheric duct",
+      "variant": "Upper Peninsula of Michigan, USA"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "marfa-lights", "name": "Marfa Lights", "relationship": "similar", "description": "Texas spook-light phenomenon often attributed to vehicle headlights and atmospheric optics" },
+      { "id": "hornet-spook-light", "name": "Hornet Spook Light", "relationship": "similar", "description": "Missouri-Oklahoma border ghost light" },
+      { "id": "brown-mountain-lights", "name": "Brown Mountain Lights", "relationship": "similar", "description": "North Carolina ghost-light phenomenon investigated by the U.S. Geological Survey" },
+      { "id": "min-min-light", "name": "Min Min Light", "relationship": "similar", "description": "Outback Queensland ghost light, attributed to Fata-Morgana-style refraction" },
+      { "id": "will-o-the-wisp", "name": "Will-o'-the-wisp / ignis fatuus", "relationship": "related", "description": "Bog-gas / atmospheric ghost-light phenomenon in folklore" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Recurring point or glow of light", "description": "A nightly visible light in the valley to the north, varying in brightness and apparent colour", "frequency": "always" },
+        { "feature": "Colour shifts", "description": "Reported as white, yellow, red, and occasionally multicoloured (the latter consistent with police-vehicle flashers passing through the duct)", "frequency": "common" },
+        { "feature": "Apparent motion", "description": "The light can seem to brighten, fade, split, or move - behaviours consistent with multiple vehicles entering and leaving the duct path", "frequency": "common" }
+      ],
+      "morphology": "Optical/atmospheric phenomenon; not a discrete entity. The 2010 Michigan Tech investigation found the apparent light source corresponds to vehicle headlights on US 45 approximately 4-5 miles distant, viewed through an atmospheric inversion duct."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Persistent nightly visibility", "description": "The light is visible on most clear nights, making it one of the most reliably observable 'ghost light' phenomena in North America", "frequency": "always", "evidence_level": "documented" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "passive",
+      "habitat_preference": ["valley with clear north sightline along Old US 45 / Robbins Pond Road"],
+      "patterns": [
+        "Visible most clear nights from the designated viewing area on Robbins Pond Road",
+        "Brightness and colour vary with vehicle traffic on the relevant stretch of US 45",
+        "Visibility is enhanced when atmospheric temperature-inversion conditions are stable"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The phenomenon is observed from a single, well-defined viewing area on Robbins Pond Road (Old US 45) near Paulding, Michigan, in the Upper Peninsula.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Upper Peninsula of Michigan", "Ontonagon County"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Robbins Pond Road / Old US 45 viewing site",
+        "location": {
+          "description": "Designated viewing area at the end of Robbins Pond Road, in the Ottawa National Forest, near Paulding, Michigan",
+          "country": "United States",
+          "region": "Upper Peninsula of Michigan",
+          "coordinates": { "latitude": 46.3522, "longitude": -89.1788 }
+        },
+        "peak_period": "1966 to present",
+        "notes": "Coordinates from the Wikipedia entry. The site is signposted as a viewing area by the U.S. Forest Service."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1966-01-01",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Local sheriff's department report cited in regional press and Wikipedia; first recorded modern report by teenagers in 1966."
+      },
+      "peak_activity_periods": [
+        { "period": "1966-present", "description": "Continuously reported since the first widely circulated modern accounts in the mid-1960s." }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Paulding Light belongs to the broad North American tradition of 'spook lights' - regularly visible nocturnal lights given supernatural folkloric explanations.",
+      "earliest_accounts": "First modern documented reports in 1966 from local teenagers; subsequent reports through the late 20th century established its status as a regional landmark.",
+      "folklore_connections": "Connected to the wider class of spook-light phenomena (Marfa, Hornet, Brown Mountain) and to railroad-lantern ghost-light folklore."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1966-01-01", "event": "First widely cited modern report: local teenagers report a recurring light to a sheriff's deputy near Paulding, Michigan", "significance": "Beginning of the modern Paulding Light record", "source": "Regional press; cited by Wikipedia" },
+      { "date": "2010-04-09", "event": "Michigan Technological University SPIE chapter publishes a structured field investigation using telescopes; the team observes vehicle headlights, tail lights, and an Adopt-a-Highway sign at the apparent light source on US 45, and reproduces the effect by driving a car through that stretch", "significance": "First formal scientific identification of the apparent source as vehicle headlights through an atmospheric inversion duct", "source": "Michigan Tech News (2010); MTU SPIE chapter report" },
+      { "date": "2019-08-06", "event": "NPR reports on the persistence of paranormal interest at the site despite the Michigan Tech explanation", "significance": "Documents the cultural durability of the legend after debunking", "source": "NPR (2019)" }
+    ],
+    "modern_era": "The site is maintained by the U.S. Forest Service as a viewing area with signage. Tourism remains strong; the Michigan Tech explanation is widely accepted in the scientific literature but coexists with active local paranormal interpretation."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1966", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "paulding-light-1966-first-report",
+        "name": "First reported sighting (Paulding teenagers)",
+        "date": { "value": "1966-01-01", "precision": "approximate" },
+        "location": {
+          "description": "Robbins Pond Road / Old US 45 corridor near Paulding, Michigan",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Paulding, Ontonagon County",
+          "coordinates": { "latitude": 46.3522, "longitude": -89.1788, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Local teenagers (unspecified)"], "credibility_factors": ["Reported to local sheriff's department"] },
+        "description": "Local teenagers reported a recurring nocturnal light in the valley north of the road; the report to a sheriff's deputy is the first widely cited modern record of the Paulding Light.",
+        "credibility": { "rating": "unverified", "factors": ["No formal investigation at the time"], "notes": "Foundational report for the modern Paulding Light record." },
+        "sources": ["Wikipedia: Paulding Light"]
+      },
+      {
+        "id": "paulding-light-2010-mtu-investigation",
+        "name": "Michigan Tech SPIE chapter investigation",
+        "date": { "value": "2010-04-09", "precision": "approximate" },
+        "location": {
+          "description": "Robbins Pond Road viewing area, Paulding, Michigan",
+          "country": "United States",
+          "region": "Michigan",
+          "locality": "Paulding, Ontonagon County",
+          "coordinates": { "latitude": 46.3522, "longitude": -89.1788, "precision": "approximate" }
+        },
+        "witnesses": { "count": 0, "types": ["Michigan Technological University SPIE student chapter"], "credibility_factors": ["Documented telescopic observation", "Reproducible field test"] },
+        "description": "Members of Michigan Tech's SPIE chapter set up telescopes at the viewing area and identified the apparent light source as automobile headlights and tail lights from vehicles on US 45 approximately 4-5 miles to the north. They observed an Adopt-a-Highway sign and police vehicle flashers, and reproduced the effect by driving a car through the same stretch of US 45.",
+        "credibility": { "rating": "high", "factors": ["Documented optical investigation", "Reproducible test"], "notes": "Generally accepted scientific explanation of the Paulding Light." },
+        "sources": ["Michigan Tech News (2010)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "paulding-light-evidence-mtu-photos",
+        "type": "telescope photographs",
+        "name": "Michigan Tech telescope observations",
+        "date": "2010-04-09",
+        "description": "Telescopic observations and photographs from the Robbins Pond Road viewing area showing vehicle headlights, tail lights, an Adopt-a-Highway sign, and police flashers at the apparent source location on US 45.",
+        "status": "verified",
+        "analysis": "The observations are consistent with vehicle headlights viewed through a stable atmospheric inversion duct, accounting for the apparent persistence and behaviour of the light.",
+        "source": "Michigan Tech News (2010)"
+      }
+    ],
     "video": [],
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Ghost lantern / railroad brakeman",
+        "description": "Local folklore identifies the light as the lantern of a railroad brakeman killed on tracks formerly running through the valley.",
+        "proponents": ["Local Paulding folklore"],
+        "evidence_cited": ["Persistence of the light", "Folkloric tradition of phantom lanterns"]
+      },
+      {
+        "name": "Murdered mail courier or other ghost",
+        "description": "Alternative folkloric explanations identify the light as the spirit of a murdered mail courier or other regional figure.",
+        "proponents": ["Local Paulding folklore"],
+        "evidence_cited": ["Local oral tradition"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Vehicle headlights through atmospheric inversion duct",
+        "description": "The 2010 Michigan Tech investigation identified the apparent light as headlights and tail lights from vehicles on a stretch of US 45 approximately 4-5 miles north of the viewing area, channelled by a stable atmospheric inversion duct over the intervening valley.",
+        "proponents": ["Michigan Technological University SPIE student chapter (2010)"],
+        "evidence_cited": ["Telescopic observation of vehicles, signs, and police flashers at the source location", "Successful reproduction of the effect by driving a vehicle through the same stretch"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Spook-light pattern",
+        "description": "Skeptical investigators note the Paulding Light fits the well-known pattern of North American spook lights, all of which have been resolved or strongly correlated with mundane optical sources.",
+        "proponents": ["Benjamin Radford"],
+        "evidence_cited": ["Comparison to Marfa, Hornet, and Brown Mountain spook-light investigations"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Upper Peninsula of Michigan local folklore",
+        "North American spook-light tradition"
+      ],
+      "stories": [
+        "The phantom railroad brakeman of the Paulding valley",
+        "The ghost of a murdered mail courier on US 45"
+      ],
+      "beliefs": "Local folklore continues to identify the light with the spirits of historical figures associated with the valley despite the scientific explanation."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Coverage in regional travel and ghost-lore guides to the Upper Peninsula"
+      ],
+      "film_tv": [
+        "Featured in episodes of cable paranormal series including SyFy's Fact or Faked: Paranormal Files (2010s)"
+      ],
       "games": [],
-      "other": []
+      "other": [
+        "U.S. Forest Service viewing area signage",
+        "Ontonagon County tourism materials"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Michigan Technological University SPIE student chapter", "affiliation": "Michigan Technological University", "contribution": "2010 telescopic investigation identifying vehicle headlights as the apparent source of the Paulding Light", "period": "2010" }
+    ],
+    "organizations": [
+      { "name": "Michigan Technological University", "url": "https://www.mtu.edu", "focus": "Optical and atmospheric investigation of the Paulding Light" },
+      { "name": "U.S. Forest Service - Ottawa National Forest", "url": "https://www.fs.usda.gov/ottawa", "focus": "Manages the Robbins Pond Road viewing area" }
+    ],
+    "ongoing_studies": "No active scientific research; the 2010 Michigan Tech investigation is widely treated as the resolved explanation. Continued informal observation by paranormal-tourism visitors."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-paulding-light",
+      "type": "website",
+      "title": "Paulding Light",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Paulding_Light",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "mtu-news-2017",
+      "type": "article",
+      "title": "It's Out There: Return to the Paulding Light",
+      "publication": "Michigan Tech News",
+      "url": "https://www.mtu.edu/news/2017/10/its-out-there-return-paulding-light.html",
+      "date": "2017-10",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "npr-2019-paulding",
+      "type": "news",
+      "title": "Mysterious Light Still Attracts Tourists, Despite Scientific Explanation",
+      "publication": "NPR",
+      "url": "https://www.npr.org/2019/08/06/748565575/town-wants-ghost-busting-scholars-to-stop-spoiling-their-fun",
+      "date": "2019-08-06",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
